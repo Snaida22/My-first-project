@@ -13,8 +13,66 @@ h1 {
     font-size: larger;
     font-style: normal;
 }
+img {
+    height: 400px;
+    width: 400px;
+    float: right;
+    border-radius: 100px;
+    margin-right: 50px;
+    
+    
+} 
+p {
+    display: flex;
+
+}
 body {
     display: block;
     margin: 8px;
     font-family: 'Nunito', sans-serif;
 }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: nunito;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #EC4067;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #EC4067;
+    color: white;
+  }
+  
+  .btn {
+    border: 4px black;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px ;
+    font-size: 14px;
+    cursor: pointer;  
+
+  }
+
+  .enroll{
+      background-color: #EC4067;
+      color: black;
+  }
+  
+  .explore {
+    border-color: #EC4067;
+    color: black;
+
+  }
