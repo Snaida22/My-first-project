@@ -1,0 +1,203 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito';
+  font-size: 1.2rem;
+}
+
+header {
+  display: flex;
+  font-family: 'Nunito';
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10pt;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 12pt;
+  padding: 0;
+  margin: 0;
+}
+
+ul li:last-child {
+  margin-left: 12pt;
+}
+
+a {
+  text-decoration: none;
+  color: #8e9396;
+}
+
+.button {
+  color: white;
+  background-color: #ec4067;
+  padding: 4pt 12pt;
+  border-radius: 4pt;
+  width: 100pt;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.primary {
+  color: #ec4067;
+}
+
+.page-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.page-container img {
+  height: 300pt;
+  width: 300pt;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h4 {
+  color: #8e9396;
+  font-weight: 500;
+}
+
+h3 {
+  color: #ec4067;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  gap: 32pt;
+}
+
+.primary-button {
+  box-shadow: 4pt 4pt 8pt #ec40675f;
+  padding: 8pt 16pt;
+}
+
+.secondary-button {
+  color: #ec4067;
+  background-color: white;
+  border: 1pt solid #ec4067;
+  border-radius: 0;
+}
+
+.column {
+  grid-template-columns: unset;
+  grid-template-rows: auto 1fr;
+  gap: 2rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 12pt 0;
+  gap: 8pt;
+}
+
+.title h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.title span {
+  font-size: 0.8em;
+  color: #8e9396;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4pt;
+  align-items: center;
+}
+
+.card img {
+  height: 300pt;
+  width: 400pt;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 3rem;
+  height: 80%;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.card:nth-child(odd) .card-content {
+  padding-left: unset;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.person-card {
+  display: grid;
+  width: 200pt;
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  font-size: 1rem;
+  padding: 8pt;
+  gap: 4pt;
+}
+
+.person-card img {
+  height: 200pt;
+  width: 100%;
+  border-radius: 8pt;
+}
+
+.person-card h6 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.person-card .image-label {
+  position: relative;
+}
+
+.person-card .image-label h6 {
+  margin: 0;
+  position: absolute;
+  bottom: 8pt;
+  left: 8pt;
+  font-weight: 500;
+  color: white;
+}
+
+.person-card .button {
+  padding: 8pt 16pt;
+}
+
+.bottom {
+  background-color: #f6f6f6;
+  display: flex;
+  width: 100%;
+  padding: 3rem 0;
+  align-items: center;
+  border-radius: 4pt;
+  justify-content: center;
+}
