@@ -2,25 +2,17 @@ h2 {
     font-size: medium;
     font-weight: 500;
     font-style: italic;
-    color: rgba(236, 10, 97, 0.973);
+    color: #EC4067;
 }
 h5 {
     font-size: x-small;
     color: black;
 }
 h1 {
-    color: rgba(236, 10, 97, 0.973);
+    color: #EC4067;
     font-size: larger;
     font-style: normal;
 }
-img {
-    height: 400px;
-    width: 400px;
-    float: right;
-    border-radius: 100px;
-    margin-right: 50px;
-    
-} 
 body {
     display: block;
     margin: 8px;
