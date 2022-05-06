@@ -2,7 +2,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Nunito';
-  font-size: 1.2rem;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 header {
@@ -11,25 +12,26 @@ header {
   width: 100%;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 10pt;
+  padding: 30px 14%;
   align-items: center;
+  margin: 10px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 12pt;
+  gap: 12px;
   padding: 0;
   margin: 0;
 }
 
 ul li:last-child {
-  margin-left: 12pt;
+  margin-left: 12px;
 }
 
 a {
   text-decoration: none;
-  color: #8e9396;
+  color: black;
 }
 
 .button {
@@ -71,7 +73,7 @@ h1 {
 }
 
 h4 {
-  color: #8e9396;
+  color: black;
   font-weight: 500;
 }
 
@@ -93,7 +95,7 @@ h3 {
 .secondary-button {
   color: #ec4067;
   background-color: white;
-  border: 1pt solid #ec4067;
+  border: 1px solid #ec4067;
   border-radius: 0;
 }
 
@@ -106,8 +108,8 @@ h3 {
 .title {
   display: flex;
   align-items: center;
-  padding: 12pt 0;
-  gap: 8pt;
+  padding: 12px 0;
+  gap: 8px;
 }
 
 .title h2 {
@@ -116,14 +118,14 @@ h3 {
 }
 
 .title span {
-  font-size: 0.8em;
-  color: #8e9396;
+  font-size: small;
+  color: black;
 }
 
 .card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4pt;
+  gap: 4px;
   align-items: center;
 }
 
@@ -144,11 +146,8 @@ h2 {
   font-weight: 500;
 }
 
-.card:nth-child(odd) .card-content {
-  padding-left: unset;
-}
-
-.row {
+.row 
+{
   display: flex;
   gap: 1rem;
 }
@@ -164,9 +163,9 @@ h2 {
 }
 
 .person-card img {
-  height: 200pt;
+  height: 200px;
   width: 100%;
-  border-radius: 8pt;
+  border-radius: 8px;
 }
 
 .person-card h6 {
@@ -182,14 +181,14 @@ h2 {
 .person-card .image-label h6 {
   margin: 0;
   position: absolute;
-  bottom: 8pt;
-  left: 8pt;
+  bottom: 8px;
+  left: 8px;
   font-weight: 500;
   color: white;
 }
 
 .person-card .button {
-  padding: 8pt 16pt;
+  padding: 8px 16px;
 }
 
 .bottom {
@@ -198,6 +197,6 @@ h2 {
   width: 100%;
   padding: 3rem 0;
   align-items: center;
-  border-radius: 4pt;
+  border-radius: 4px;
   justify-content: center;
 }
