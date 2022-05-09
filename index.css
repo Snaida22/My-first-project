@@ -1,202 +1,202 @@
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Nunito';
-  font-size: 20px;
-  font-weight: 500;
-}
-
-header {
-  display: flex;
-  font-family: 'Nunito';
-  width: 100%;
-  justify-content: space-between;
-  box-sizing: border-box;
-  padding: 30px 14%;
-  align-items: center;
-  margin: 10px;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  gap: 12px;
-  padding: 0;
-  margin: 0;
-}
-
-ul li:last-child {
-  margin-left: 12px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.button {
-  color: white;
-  background-color: #ec4067;
-  padding: 4pt 12pt;
-  border-radius: 4pt;
-  width: 100pt;
-  text-align: center;
-}
-
-h1 {
-  margin: 0;
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
-.primary {
-  color: #ec4067;
-}
-
-.page-container {
-  width: 70%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: auto;
-  margin-top: 1rem;
-}
-
-.page-container img {
-  height: 300pt;
-  width: 300pt;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-h4 {
-  color: black;
-  font-weight: 500;
-}
-
-h3 {
-  color: #ec4067;
-  font-weight: 500;
-}
-
-.button-container {
-  display: flex;
-  gap: 32pt;
-}
-
-.primary-button {
-  box-shadow: 4pt 4pt 8pt #ec40675f;
-  padding: 8pt 16pt;
-}
-
-.secondary-button {
-  color: #ec4067;
-  background-color: white;
-  border: 1px solid #ec4067;
-  border-radius: 0;
-}
-
-.column {
-  grid-template-columns: unset;
-  grid-template-rows: auto 1fr;
-  gap: 2rem;
-}
-
-.title {
-  display: flex;
-  align-items: center;
-  padding: 12px 0;
-  gap: 8px;
-}
-
-.title h2 {
-  margin: 0;
-  font-weight: 500;
-}
-
-.title span {
-  font-size: small;
-  color: black;
-}
-
-.card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4px;
-  align-items: center;
-}
-
-.card img {
-  height: 300pt;
-  width: 400pt;
-}
-
-.card .card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 3rem;
-  height: 80%;
-}
-
-h2 {
-  font-weight: 500;
-}
-
-.row 
-{
-  display: flex;
-  gap: 1rem;
-}
-
-.person-card {
-  display: grid;
-  width: 200pt;
-  grid-template-rows: auto auto auto auto;
-  align-items: center;
-  font-size: 1rem;
-  padding: 8pt;
-  gap: 4pt;
-}
-
-.person-card img {
-  height: 200px;
-  width: 100%;
-  border-radius: 8px;
-}
-
-.person-card h6 {
-  margin: 0;
-  font-size: 1em;
-  font-weight: 500;
-}
-
-.person-card .image-label {
-  position: relative;
-}
-
-.person-card .image-label h6 {
-  margin: 0;
-  position: absolute;
-  bottom: 8px;
-  left: 8px;
-  font-weight: 500;
-  color: white;
-}
-
-.person-card .button {
-  padding: 8px 16px;
-}
-
-.bottom {
-  background-color: #f6f6f6;
-  display: flex;
-  width: 100%;
-  padding: 3rem 0;
-  align-items: center;
-  border-radius: 4px;
-  justify-content: center;
-}
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  header {
+    display: flex;
+    font-family: 'Nunito';
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px 14%;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li:last-child {
+    margin-left: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .button {
+    color: white;
+    background-color: #ec4067;
+    padding: 4pt 12pt;
+    border-radius: 4pt;
+    width: 100pt;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  
+  .primary {
+    color: #ec4067;
+  }
+  
+  .page-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  
+  .page-container img {
+    height: 300pt;
+    width: 300pt;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h4 {
+    color: black;
+    font-weight: 500;
+  }
+  
+  h3 {
+    color: #ec4067;
+    font-weight: 500;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 32pt;
+  }
+  
+  .primary-button {
+    box-shadow: 4pt 4pt 8pt #ec40675f;
+    padding: 8pt 16pt;
+  }
+  
+  .secondary-button {
+    color: #ec4067;
+    background-color: white;
+    border: 1px solid #ec4067;
+    border-radius: 0;
+  }
+  
+  .column {
+    grid-template-columns: unset;
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    gap: 8px;
+  }
+  
+  .title h2 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .title span {
+    font-size: small;
+    color: black;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .card img {
+    height: 300pt;
+    width: 400pt;
+  }
+  
+  .card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3rem;
+    height: 80%;
+  }
+  
+  h2 {
+    font-weight: 500;
+  }
+  
+  .row 
+  {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .person-card {
+    display: grid;
+    width: 200pt;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    font-size: 1rem;
+    padding: 8pt;
+    gap: 4pt;
+  }
+  
+  .person-card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .person-card h6 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .person-card .image-label {
+    position: relative;
+  }
+  
+  .person-card .image-label h6 {
+    margin: 0;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .person-card .button {
+    padding: 8px 16px;
+  }
+  
+  .bottom {
+    background-color: #f6f6f6;
+    display: flex;
+    width: 100%;
+    padding: 3rem 0;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+  }
